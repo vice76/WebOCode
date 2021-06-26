@@ -9,6 +9,22 @@ const Header = () => {
                     <div className="NavbarLeft">
                         <Logo />
                     </div>
+                    <div className="NavbarRight">
+                        <ul className="NavigationItems">
+                            <li className="NavigationItem">
+                            Home
+                            </li>
+                            <li className="NavigationItem">
+                            Resources
+                            </li>
+                            <li className="NavigationItem">
+                            Covid Updates
+                            </li>
+                            <li className="NavigationItem">
+                            Vaccination
+                            </li>
+                        </ul>
+                    </div>  
                 </div>
             </div>
         </header>
