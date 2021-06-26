@@ -10,7 +10,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/resources" component={Resources} />
+        <Route path="/covidupdates" component={CovidUpdates} />
+        <Route path="/vaccination" component={Vaccination} />
+      </Switch>
     </div>
   );
 }
