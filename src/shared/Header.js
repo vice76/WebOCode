@@ -4,10 +4,10 @@ import Logo from '../assets/Logo.png';
 const Header = () => {
     return (
         <header>
-            <div className={navbarActiveclass.join(" ")}>
+            <div className="">
                 <div className="container">
                     <div className="NavbarLeft">
-                        <Logo ClassName="NavbarLogo"/>
+                        Logo
                     </div>
                     <div className="NavbarRight">
                         <ul className="NavigationItems">
