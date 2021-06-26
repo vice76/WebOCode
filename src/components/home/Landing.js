@@ -9,8 +9,8 @@ const Landing = () => {
                    <h1>Save A Life</h1>
                    <p>Connect to help others</p>
                    <div>
-                       <button>Add Resources</button>
-                       <button>View Resources</button>
+                       <button className="add-button">Add Resources</button>
+                       <button className="view-button">View Resources</button>
                    </div>
                 </div>
                 <div className="container-right">
