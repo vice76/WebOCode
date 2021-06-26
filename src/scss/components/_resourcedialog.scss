@@ -1,0 +1,30 @@
+.MuiPaper-root{
+    min-width: 30%;
+}
+.resources{
+    text-align: center;
+    
+    justify-content: center;
+    display: flex;
+    padding: 2% 0% 15% 0% ;
+    > * {
+        margin-left: 3rem;
+      }
+    .resourceone{
+        align-items:flex-start;
+        align-content:space-between;
+    }
+    .resourcetwo{
+        align-items:center;
+        align-content:space-between;
+    }
+    .resourcethree{
+        align-items: flex-end;
+        align-content:space-between;
+        margin-right: 3rem;
+    }
+    .cta {
+        background-color: blue;
+        color: white;
+      }
+}
