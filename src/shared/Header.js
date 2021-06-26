@@ -7,7 +7,7 @@ const Header = () => {
             <div className={navbarActiveclass.join(" ")}>
                 <div className="container">
                     <div className="NavbarLeft">
-                        <Logo />
+                        <Logo ClassName="NavbarLogo"/>
                     </div>
                     <div className="NavbarRight">
                         <ul className="NavigationItems">
