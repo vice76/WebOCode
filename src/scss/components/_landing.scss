@@ -1,0 +1,13 @@
+.landing-container {
+    background-color: yellow;
+    .container {
+        display: flex;
+        flex-direction: row;
+
+        .container-left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
