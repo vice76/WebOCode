@@ -2,17 +2,26 @@
     background-image: url('../../assets/background.PNG');
     background-size: contain;
     background-repeat: repeat;
-    height: 500px;
+    height: auto;
     padding: 0 13%;
     .container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
 
+        @media (max-width: 900px) {
+            flex-direction: column;
+            text-align: center;
+        }
+
         .container-left {
             h1 {
                 padding-top: 170px;
                 font-size: 5rem;
+
+                @media (max-width: 1000px) {
+                    padding-top: 100px;
+                }
             }
             p {
                 font-size: 2.5rem;
@@ -23,8 +32,8 @@
 
                 .add-button {
                     font-size: 1rem;
-                    width: 45%;
-                    padding: 4%;
+                    width: 200px;
+                    padding: 18px;
                     border-radius: 10px;
                     color: white;
                     background-color: $color-green;
@@ -35,8 +44,8 @@
     
                 .view-button {
                     font-size: 1rem;
-                    width: 45%;
-                    padding: 4%;
+                    width: 200px;
+                    padding: 17px;
                     border-radius: 10px;
                     background-color: white;
                     border: 2px solid $color-green;
@@ -52,6 +61,10 @@
                 height: 500px;
                 width: 500px;
                 margin-right: -70px;
+
+                @media (max-width: 900px) {
+                    margin-right: 0px;
+                }
             }
             @media (prefers-reduced-motion: no-preference) {
                 img {
@@ -60,12 +73,17 @@
             }
 
             @keyframes virus-logo-spin {
-                0%   {transform: rotate(0deg); left: 0px; top: 0px;}
-                25%  {transform: rotate(90deg);left: 100px; top: 0px;}
-                50%  {transform: rotate(180deg);left: 100px; top: 100px;}
-                75%  {transform: rotate(270deg);left: 0px; top: 100px;}
-                100% {transform: rotate(360deg); left: 0px; top: 0px;}
+                from {
+                    transform: rotate(0deg);
+                  }
+                  to {
+                    transform: rotate(360deg);
+                }
             }
         }
+    }
+
+    @media (max-width: 1200px) {
+        padding: 0 5%;
     }
 }
