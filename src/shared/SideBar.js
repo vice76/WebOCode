@@ -6,7 +6,28 @@ import CloseIcon from '@material-ui/icons/Close';
 import Logo from "./Logo";
 
 const SideDrawer = (props) => {
-  
+  const [sidebar, setSidebar] = useState(false);
+  const [shadow, setShadow] = useState(false);
+
+  const boxShadowHandler = () => {
+    if (window.scrollY >= 100) {
+      setShadow(true);
+    } else if (window.scrollY < 100) {
+      setShadow(false);
+    }
+  };
+
+  let shadowActiveclass = [classes.SideDrawer, null];
+
+  if (shadow === true) {
+    shadowActiveclass = [classes.SideDrawer, classes.active];
+  }
+
+  window.addEventListener("scroll", boxShadowHandler);
+
+  const showSidebar = () => setSidebar(!sidebar);
+
+  const navMenuActive = [classes.navMenu, classes.navActive];
   return (
     <div className={classes.Container}>
       <div className={shadowActiveclass.join(" ")}>
