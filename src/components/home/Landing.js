@@ -8,7 +8,7 @@ const Landing = () => {
                 <div className="container-left">
                    <h1>Save A Life</h1>
                    <p>Connect to help others</p>
-                   <div>
+                   <div className="button-container">
                        <button className="add-button">Add Resources</button>
                        <button className="view-button">View Resources</button>
                    </div>
