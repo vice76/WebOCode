@@ -38,13 +38,6 @@ const Medicine = () => {
             quantity: 1,
             number: "123******",
             location: "Delhi"
-        },
-        {
-            name: "Peg Legge",
-            type: "Medicine",
-            quantity: 1,
-            number: "123******",
-            location: "Mumbai"
         }
     ];
 

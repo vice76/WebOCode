@@ -1,44 +1,81 @@
 @import '../variables/_color.scss';
 
 .bloodbottle{
-    padding-left: 13%;
-    > * {
-        margin-right: 18rem;
+    
+  .bloodbottle-container {
+    display: flex;
+    justify-content: space-between;
+
+    .bloodbottle-left {
+      height: 150px;
+      padding: 20px;
+
+      @media (max-width: 1000px) {
+        height: 100px;
+        padding: 10px;
       }
-      > *:last-child {
-        margin-right: 0;
+
+      @media (max-width: 600px) {
+        height: 70px;
+        padding: 5px;
       }
-      .bloodbottle-left{
-        position: absolute;
-        padding-top: 10%;
-        width: 6rem;
+
+      @media (max-width: 400px) {
+        height: 50px;
+        padding: 3px;
+      }
     }
-    .bloodbottle-center{
-        margin-left: 24rem;
-        width: 20rem;
+
+    .bloodbottle-center {
+      height: 600px;
+      @media (max-width: 600px) {
+        height: 500px;
+      }
+      @media (max-width: 400px) {
+        height: 400px;
+      }
+    }
+
+    .bloodbottle-right {
+      height: 150px;
+      padding: 20px;
+
+      @media (max-width: 1000px) {
+        height: 100px;
+        padding: 10px;
+      }
+      @media (max-width: 600px) {
+        height: 70px;
+        padding: 5px;
+      }
+      @media (max-width: 400px) {
+        height: 50px;
+        padding: 3px;
+      }
+    }
   }
-      .bloodbottle-right{
-          position: absolute;
-        padding-top: 10%;
-        width: 5rem;
+
+  .donate-button {
+    text-align: center;
+
+    button {
+      background-color: $color-green;
+      color: white;
+      border: 1px solid $color-green;
     }
-    .donate-button{
-      margin-top: -0.5rem;
-      margin-left: 29.5rem;
-      .MuiButton-root{
-        color: $color-white;
-        background-color: $color-green;
+  }
+
+  .plasma-heading {
+    text-align: center;
+    padding: 10px;
+
+    h1 {
+      font-family: 'Rubik', sans-serif;
+      color: $color-blue;
+      @media (max-width: 500) {
+        font-size: 0.5rem;
       }
     }
-    .plasma-heading{
-      padding-top: 1rem;
-      margin-left: 20rem;
-      margin-bottom: 1rem;
-      margin-right: 3rem;
-    }
-    .icon{
-      width: 5%;
-      padding-left: 1.5rem;
-    }
+  }
 }
 

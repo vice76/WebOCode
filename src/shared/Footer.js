@@ -10,12 +10,9 @@ const Footer = () => {
       <div className="footer__row">
         <p >
           Made With Love <img src={Heart} alt="heart" style={{width:"15%"}}/>
+          <br/> by Team Scripter
         </p>
         <p>Contact Us</p>
-      </div>
-      <div className="footer__center">
-      <img className="logo" src={Instagram} alt="Instagram-Logo" />
-      <img className="logo" src={Gmail} alt="Gmail-Logo" />
       </div>
       <hr />
       <div className="footer__down">

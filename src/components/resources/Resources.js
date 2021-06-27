@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import Oxygen from './Oxygen';
 import Medicine from './Medicine';
 import Plasma from './Plasma';
+import Doctor from './Doctor';
 
 const Resources = () => {
     return (
@@ -14,6 +15,7 @@ const Resources = () => {
             <Route path="/resources/medicine" component={Medicine} />
             <Route path="/resources/plasma" component={Plasma} />
             </Switch>
+            <Doctor />
         </div>
     )
 }

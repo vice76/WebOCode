@@ -6,6 +6,7 @@ import Resources from './components/resources/Resources';
 import CovidUpdates from './components/covidUpdates/CovidUpdates';
 import Vaccination from './components/vaccination/Vaccination';
 import SideBar from './shared/SideBar';
+import Footer from './shared/Footer';
 
 class App extends Component {
   sideDrawerClosedHandler = () => {
@@ -29,6 +30,7 @@ class App extends Component {
         <Route path="/covidupdates" component={CovidUpdates} />
         <Route path="/vaccination" component={Vaccination} />
       </Switch>
+      <Footer />
     </div>
   );
 }
