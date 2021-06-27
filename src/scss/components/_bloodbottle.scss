@@ -70,6 +70,8 @@
     padding: 10px;
 
     h1 {
+      font-family: 'Rubik', sans-serif;
+      color: $color-blue;
       @media (max-width: 500) {
         font-size: 0.5rem;
       }
