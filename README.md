@@ -18,7 +18,7 @@ The frontend of the website is implemented in React.js, css framework -Sass, Mat
 # Installation
 1. Clone repository:
 ```bash
-$ https://github.com/h01sachan/Chiranjeev.git
+$ https://github.com/vice76/WebOCode.git
 ```
 
 2. Install dependencies:
