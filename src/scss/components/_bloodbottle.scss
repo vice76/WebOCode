@@ -1,0 +1,44 @@
+@import '../variables/_color.scss';
+
+.bloodbottle{
+    padding-left: 13%;
+    > * {
+        margin-right: 18rem;
+      }
+      > *:last-child {
+        margin-right: 0;
+      }
+      .bloodbottle-left{
+        position: absolute;
+        padding-top: 10%;
+        width: 6rem;
+    }
+    .bloodbottle-center{
+        margin-left: 24rem;
+        width: 20rem;
+  }
+      .bloodbottle-right{
+          position: absolute;
+        padding-top: 10%;
+        width: 5rem;
+    }
+    .donate-button{
+      margin-top: -0.5rem;
+      margin-left: 29.5rem;
+      .MuiButton-root{
+        color: $color-white;
+        background-color: $color-green;
+      }
+    }
+    .plasma-heading{
+      padding-top: 1rem;
+      margin-left: 20rem;
+      margin-bottom: 1rem;
+      margin-right: 3rem;
+    }
+    .icon{
+      width: 5%;
+      padding-left: 1.5rem;
+    }
+}
+
