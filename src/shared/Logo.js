@@ -4,7 +4,7 @@ import classes from "./Logo.module.css";
 
 const Logo = () => {
     return (
-        <img className={classes.Logo} src={LogoIcon} slt="Website-Logo"/>
+        <img className={classes.Logo} src={LogoIcon} alt="Website-Logo"/>
     )
 }
 
