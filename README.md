@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Project : Sanjeevni
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Inspiration : 
+We all know that during the covid second wave , we were all in need of medicines and medical equipments. Each day the number of cases were increasing and more people needed oxygen, plasma, medicines, injections like remdesivir, it was very hard to find beds, ventilators, oxygen, plasma and the number of medicines . <br>
+Also, there is a huge demand for plasma donation in every hospital, and thus to save life of others we came across this idea.
+<br>
+Also, in this pandemic after seeing the news we get more frustrated ,so to keep yourself update with covid data you can check in this website.
+<br>
 
-## Available Scripts
+# What it does : 
+Sanjeevni is a initiative to help people by providing them a platform to find the availability of medicines, injections , plasma and oxygen in their city. We also request people if they have any valid resource of medical needs mentioned above can put them up. Your one help can save millions life. Stay safe , Stay healthy.  <br>
+People can also volunteer themselves for plasma donation <br>
+On the other hand, you can also register for vaccination through our website and also have a knowledege of updated cases of India.<br>
 
-In the project directory, you can run:
+# How we built it
+The frontend of the website is implemented in React.js, css framework -Sass, Material-ui/core , Figma for images and illustrations, we used  Figma for design and layout, and fetch to consume the backend.<br>
 
-### `npm start`
+# Installation
+1. Clone repository:
+```bash
+$ https://github.com/h01sachan/Chiranjeev.git
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. Install dependencies:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+$ npm i
+```
 
-### `npm test`
+3. Run example:
+```bash
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
