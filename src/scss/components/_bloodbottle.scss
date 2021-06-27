@@ -1,0 +1,26 @@
+.bloodbottle{
+    padding-left: 15%;
+    > * {
+        margin-right: 18rem;
+      }
+      > *:last-child {
+        margin-right: 0;
+      }
+      .bloodbottle-left{
+        position: absolute;
+        padding-top: 10%;
+        width: 6rem;
+    }
+    .bloodbottle-center{
+        margin-left: 22rem;
+        width: 20rem;
+  }
+      .bloodbottle-right{
+          position: absolute;
+        padding-top: 10%;
+        width: 5rem;
+    }
+    
+    
+}
+
