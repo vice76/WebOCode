@@ -1,11 +1,11 @@
 @import "../variables/_color.scss";
 
 .footer{
-    background-color: rgba(#5B8A72,1.5);
+    background-color: rgba(#5B8A72,.8);
     padding: 2% 13%;
     color: $color-white;
     > * {
-        margin-bottom: 1rem;
+        margin-bottom: .7rem;
       }
       > *:last-child {
         margin-bottom: 0;
@@ -16,5 +16,16 @@
         justify-content: space-between;
           align-items: center;
           align-content: center;
+      }
+      &__center{
+        display: flex;
+        flex-direction: row-reverse;
+        .logo{
+            margin-left: 2rem;
+            width: 2%;
+        }
+      }
+      &__down{
+          text-align: center;
       }
 }
