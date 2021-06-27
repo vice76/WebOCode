@@ -1,6 +1,11 @@
 .covid-case-card {
     width: 25%;
     padding: 5%;
+
+    @media (max-width: 500px) {
+      width: 10%;
+    }
+
     box-sizing: content-box;
     border-radius: 8px;
     margin-bottom: 2%;
