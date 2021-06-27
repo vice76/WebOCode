@@ -57,6 +57,9 @@
                         width: 150px;
                         font-size: 0.7rem;
                     }
+                    @media (max-width: 345px) {
+                        margin-right: 0;
+                    }
                 }
     
                 .view-button {
