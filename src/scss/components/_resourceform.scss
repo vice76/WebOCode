@@ -1,0 +1,45 @@
+@import "../variables/_color.scss";
+.resource-form{
+    padding: 8% ;
+    > * {
+        margin-bottom: 1.6rem;
+      }
+      > *:last-child {
+        margin-bottom: 0;
+      }
+      justify-content: center;
+      align-items: stretch;
+      align-content: stretch;
+    .form-box {
+        > * {
+            margin-bottom: 1rem;
+          }
+          > *:last-child {
+            margin-bottom: 0;
+          }
+      .field-container {
+        > * {
+            margin-bottom: .5rem;
+          }
+          > *:last-child {
+            margin-bottom: 0;
+          }
+          justify-content: center;
+          align-items: stretch;
+          align-content: stretch;
+
+        .MuiOutlinedInput-input {
+            padding: 3%;
+            font-size: .8rem ;
+            color: rgba(#5B8A72, .9);
+        }
+        .MuiOutlinedInput-multiline{
+            padding: 0%;
+        }
+      }
+    }
+    .MuiButton-root {
+        background-color: $color-green;
+        color: $color-white;
+      }
+}
