@@ -1,16 +1,21 @@
-.heading-container {
-    background-image: url('../../assets/background1.PNG');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+.heading {
+    text-align: center;
+    .option-container {
+        padding: 2%;
 
-    .container {
-        width: 100%;
-        text-align: center;
+        .options {
+            padding: 2%;
 
-        h1 {
-            padding-top: 50px;
+            button {
+                font-size: 1rem;
+                padding: 8px;
+                width: 100px;
+                border-radius: 10px;
+                cursor: pointer;
+                margin: 0 5px 5px 0;
+                background-color: white;
+                border: 2px solid $color-green;
+            }
         }
     }
 }
