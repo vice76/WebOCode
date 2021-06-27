@@ -6,31 +6,29 @@ import Resources from './components/resources/Resources';
 import CovidUpdates from './components/covidUpdates/CovidUpdates';
 import Vaccination from './components/vaccination/Vaccination';
 import SideBar from './shared/SideBar';
-import Bloodbottle from "./components/home/Bloodbottle";
 
 class App extends Component {
-  // sideDrawerClosedHandler = () => {
-  //   this.setState({ showSideDrawer: false });
-  // };
+  sideDrawerClosedHandler = () => {
+    this.setState({ showSideDrawer: false });
+  };
 
-  // sideDrawerToggleHandler = () => {
-  //   this.setState((prevState) => {
-  //     return { showSideDrawer: !prevState.showSideDrawer };
-  //   });
-  // };
+  sideDrawerToggleHandler = () => {
+    this.setState((prevState) => {
+      return { showSideDrawer: !prevState.showSideDrawer };
+    });
+  };
 
   render() {
   return (
     <div className="App">
-      {/* <Header />
+      <Header />
       <SideBar />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/resources" component={Resources} />
         <Route path="/covidupdates" component={CovidUpdates} />
         <Route path="/vaccination" component={Vaccination} />
-      </Switch> */}
-      <Bloodbottle/>
+      </Switch>
     </div>
   );
 }
