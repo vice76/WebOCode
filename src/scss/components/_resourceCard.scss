@@ -1,9 +1,14 @@
 .resource-container {
     width: 400px;
     height: auto;
+    border: 2px solid black;
 
     .container {
         padding: 10px;
-        
+
+        .contact-div {
+            padding: 4px;
+            text-align: center;
+        }
     }
 }

@@ -1,9 +1,10 @@
 import React from 'react';
+import ResourceCard from '../../shared/ResourceCard';
 
 const Oxygen = () => {
     return (
         <div>
-            Oxygen
+            <ResourceCard />
         </div>
     )
 }
