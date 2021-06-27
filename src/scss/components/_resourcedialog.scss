@@ -1,3 +1,4 @@
+@import "../variables/_color.scss";
 .MuiPaper-root{
     min-width: 30%;
 }
@@ -13,15 +14,27 @@
     .resourceone{
         align-items:flex-start;
         align-content:space-between;
+        .MuiButton-root {
+            background-color: $color-green;
+            color: $color-white;
+          }
     }
     .resourcetwo{
         align-items:center;
         align-content:space-between;
+        .MuiButton-root {
+            background-color: $color-green;
+            color: $color-white;
+          }
     }
     .resourcethree{
         align-items: flex-end;
         align-content:space-between;
         margin-right: 3rem;
+        .MuiButton-root {
+            background-color: $color-green;
+            color: $color-white;
+          }
     }
     .cta {
         background-color: blue;
