@@ -9,15 +9,49 @@
     .bloodbottle-left {
       height: 150px;
       padding: 20px;
+
+      @media (max-width: 1000px) {
+        height: 100px;
+        padding: 10px;
+      }
+
+      @media (max-width: 600px) {
+        height: 70px;
+        padding: 5px;
+      }
+
+      @media (max-width: 400px) {
+        height: 50px;
+        padding: 3px;
+      }
     }
 
     .bloodbottle-center {
       height: 600px;
+      @media (max-width: 600px) {
+        height: 500px;
+      }
+      @media (max-width: 400px) {
+        height: 400px;
+      }
     }
 
     .bloodbottle-right {
       height: 150px;
       padding: 20px;
+
+      @media (max-width: 1000px) {
+        height: 100px;
+        padding: 10px;
+      }
+      @media (max-width: 600px) {
+        height: 70px;
+        padding: 5px;
+      }
+      @media (max-width: 400px) {
+        height: 50px;
+        padding: 3px;
+      }
     }
   }
 
@@ -27,6 +61,13 @@
 
   .plasma-heading {
     text-align: center;
+    padding: 10px;
+
+    h1 {
+      @media (max-width: 500) {
+        font-size: 0.5rem;
+      }
+    }
   }
 }
 
