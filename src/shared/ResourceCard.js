@@ -13,19 +13,18 @@ const ResourceCard = (props) => {
                 <div className="details">
                 <div className="icon-div">
                 <div className="icon">
-                <image src={OxygenLogo} alt="logo-type"/>
+                <img src={OxygenLogo} alt="logo-type"/>
                 </div>
+                <p>04 June 2021</p>
                 </div>
                 <div className="details-div">
-                    <p><AccountCircleIcon />Name : "Sudheer Singh"</p>
-                    <p><LocalMallIcon />Resource : "Oxygen"</p>
-                    <p><AddIcon />Unit : 4</p>
-                    <p><PhoneIcon /> Number : 7565905127</p>
-                    <p><LocationOnIcon />Location: Lucknow</p>
-                </div>
-                </div>
-                <div className="contact-div">
+                    <p><AccountCircleIcon className="icons"/><span>Name :</span> {props.name}</p>
+                    <p><LocalMallIcon className="icons"/><span>Resource :</span> {props.type}</p>
+                    <p><AddIcon className="icons"/><span>Unit :</span> {props.quantity}</p>
+                    <p><PhoneIcon className="icons"/> <span>Number :</span> {props.number}</p>
+                    <p><LocationOnIcon className="icons"/><span>Location :</span> {props.location}</p>
                     <button>Contact</button>
+                </div>
                 </div>
             </div>
         </div>
