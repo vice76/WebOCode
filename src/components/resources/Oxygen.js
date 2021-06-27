@@ -60,6 +60,7 @@ const Oxygen = () => {
                             quantity={arr.quantity}
                             number={arr.number}
                             location={arr.location}
+                            logo="OxygenLogo"
                         />
                     )
                 })

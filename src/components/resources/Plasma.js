@@ -1,4 +1,5 @@
 import React from 'react';
+import ResourceCard from '../../shared/ResourceCard';
 
 const Plasma = () => {
     const PlasmaDonorsList = [
