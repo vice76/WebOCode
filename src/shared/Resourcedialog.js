@@ -14,7 +14,7 @@ const Resourcedialog = ({open,handleClose}) => {
             <Button
               variant="outlined"
               component={NavLink}
-              to={"/oxygen"}
+              to={"/resources/oxygen"}
               activeClassName="cta"
             >
               OXYGEN
@@ -24,7 +24,7 @@ const Resourcedialog = ({open,handleClose}) => {
             <Button
               variant="outlined"
               component={NavLink}
-              to={"/medicines"}
+              to={"/resources/medicine"}
               activeClassName="cta"
             >
               MEDICINE
@@ -34,7 +34,7 @@ const Resourcedialog = ({open,handleClose}) => {
             <Button
               variant="outlined"
               component={NavLink}
-              to={"/plasma"}
+              to={"/resources/plasma"}
               activeClassName="cta"
             >
               PLASMA
