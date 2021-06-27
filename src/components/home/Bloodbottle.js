@@ -9,17 +9,18 @@ import "../../scss/components/_bloodbottle.scss";
 const Bloodbottle = () => {
     return (
         <div className="bloodbottle">
+            <div className="bloodbottle-container">
              <img className="bloodbottle-left" src={Bottle} slt="background -img1"/>
              <img className="bloodbottle-center" src={Blood} slt="main-img"/>
              <img className="bloodbottle-right" src={Drop} slt="background -img2"/> 
+            </div>
              <div className="donate-button">
              <Button variant="outlined" >Donate Plasma</Button>
              </div>
              <div className="plasma-heading">
                 <h1>BECOME A VOLUNTEER
                 <img className="icon" src={Donateicon} slt="background -img2"/> 
-                </h1>
-                
+                </h1> 
              </div>
         </div>
     )
