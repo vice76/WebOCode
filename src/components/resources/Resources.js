@@ -12,7 +12,7 @@ const Resources = () => {
             <Switch>
             <Route path="/resources/oxygen" component={Oxygen} />
             <Route path="/resources/medicine" component={Medicine} />
-            <Route path="/resources/vaccination" component={Plasma} />
+            <Route path="/resources/plasma" component={Plasma} />
             </Switch>
         </div>
     )

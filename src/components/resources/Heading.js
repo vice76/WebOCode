@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from "react-router-dom";
 
 const Heading = () => {
     return (
@@ -6,13 +7,13 @@ const Heading = () => {
         <div className="option-container">
         <h1>Looking for</h1>
         <div className="options">
-        <button>Medicine</button>
-        <button>Oxygen</button>
-        <button>Plasma</button>
+        <NavLink to="/resources/oxygen"><button>Oxygen</button></NavLink>
+        <NavLink to="/resources/medicine"><button>Medicine</button></NavLink>
+        <NavLink to="/resources/plasma"><button>Plasma</button></NavLink>
         </div>
         </div>  
         </div>
     )
 }
 
-export default Heading
+export default Heading;
