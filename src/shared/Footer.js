@@ -1,7 +1,5 @@
 import React from "react";
 import Heart from "../assets/heart.png";
-import Instagram from "../assets/instagram.png";
-import Gmail from "../assets/gmail.png";
 import "../scss/components/_footer.scss";
 
 const Footer = () => {

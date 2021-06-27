@@ -1,9 +1,10 @@
 import React from 'react';
+import Information from './Information';
 
 const Vaccination = () => {
     return (
         <div>
-            Vaccination
+            <Information />
         </div>
     )
 }

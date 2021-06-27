@@ -41,7 +41,7 @@ const SideDrawer = (props) => {
         <ul className={classes.navMenuItems} onClick={showSidebar}>
           <li className={classes.SideDrawerToggle}>
             <Link to="#" className={classes.menuBars}>
-              <CloseIcon fonstSize="medium" className={classes.close}/>
+              <CloseIcon  className={classes.close}/>
             </Link>
           </li>
           <li className={classes.navText}>
