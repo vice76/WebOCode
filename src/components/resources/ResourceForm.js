@@ -1,10 +1,9 @@
 import React from "react";
 import { Dialog, TextField, Button } from "@material-ui/core";
-import "../../scss/components/_resourceform.scss";
 import { makeStyles } from "@material-ui/core/styles";
-import MenuItem from "@material-ui/core/MenuItem";
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
+import "../../scss/components/_resourceform.scss";
 
 const useStyles = makeStyles({
   root: {
@@ -13,15 +12,7 @@ const useStyles = makeStyles({
   },
 });
 
-const ResourceForm = () => {
-  const [open, setOpen] = React.useState(false);
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
+const ResourceForm = ({open ,handleClose }) => {
   const classes = useStyles();
   const [state, setState] = React.useState({
     age: '',
