@@ -3,7 +3,7 @@ import React from 'react';
 const Plasma = () => {
     return (
         <div>
-            
+            Medicine
         </div>
     )
 }
