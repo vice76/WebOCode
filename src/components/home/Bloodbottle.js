@@ -19,8 +19,7 @@ const Bloodbottle = () => {
              </div>
              <div className="plasma-heading">
                 <h1>BECOME A VOLUNTEER</h1> 
-                <img className="icon" src={Donateicon} alt="background -img2"/> 
-                
+                <img className="icon" src={Donateicon} alt="background -img2"/>  
              </div>
         </div>
     )
