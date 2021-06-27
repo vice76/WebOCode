@@ -1,3 +1,20 @@
+@import "../variables/_color.scss";
+
 .footer{
-    
+    background-color: rgba(#5B8A72,1.5);
+    padding: 2% 13%;
+    color: $color-white;
+    > * {
+        margin-bottom: 1rem;
+      }
+      > *:last-child {
+        margin-bottom: 0;
+      }
+      &__row{
+          display: flex;
+          flex-direction: row;
+        justify-content: space-between;
+          align-items: center;
+          align-content: center;
+      }
 }
