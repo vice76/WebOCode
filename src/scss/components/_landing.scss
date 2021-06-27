@@ -22,6 +22,9 @@
                 @media (max-width: 1000px) {
                     padding-top: 100px;
                 }
+                @media (max-width: 400px) {
+                    padding-top: 70px;
+                }
             }
             p {
                 font-size: 2.5rem;
@@ -39,7 +42,13 @@
                     background-color: $color-green;
                     border: 2px $color-green;
                     margin-right: 10px;
+                    margin-bottom: 10px;
                     cursor: pointer;
+
+                    @media (max-width: 900px) {
+                        width: 150px;
+                        font-size: 0.7rem;
+                    }
                 }
     
                 .view-button {
@@ -52,18 +61,26 @@
                     color: $color-green;
                     font-weight: bold;
                     cursor: pointer;
+
+                    @media (max-width: 900px) {
+                        width: 150px;
+                        font-size: 0.7rem;
+                    }
                 }
             }   
         }
 
         .container-right {
             img {
-                height: 500px;
-                width: 500px;
+                height: 400px;
+                width: 400px;
+                margin-top: 80px;
                 margin-right: -70px;
 
                 @media (max-width: 900px) {
                     margin-right: 0px;
+                    height: 200px;
+                     width: 200px;
                 }
             }
             @media (prefers-reduced-motion: no-preference) {
