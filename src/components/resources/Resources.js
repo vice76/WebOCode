@@ -1,9 +1,10 @@
 import React from 'react';
+import Heading from './Heading';
 
 const Resources = () => {
     return (
         <div>
-            resources
+            <Heading />
         </div>
     )
 }

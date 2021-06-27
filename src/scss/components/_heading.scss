@@ -1,0 +1,16 @@
+.heading-container {
+    background-image: url('../../assets/background1.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+
+    .container {
+        width: 100%;
+        text-align: center;
+
+        h1 {
+            padding-top: 50px;
+        }
+    }
+}
