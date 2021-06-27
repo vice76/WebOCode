@@ -1,9 +1,10 @@
 import React from 'react';
+import Covidcases from './Covidcases';
 
 const CovidUpdates = () => {
     return (
-        <div>
-            CovidUpdates
+        <div className="covid-case-Card">
+            <Covidcases />
         </div>
     )
 }

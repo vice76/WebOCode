@@ -77,3 +77,14 @@
         border: 1px solid $color-green;
     }
 }
+
+.error-message {
+    height: 80vh;
+    font-family: 'Rubik', sans-serif;
+    color: red;
+    text-align: center;
+
+    h1 {
+        margin-top: 20%;
+    }
+}

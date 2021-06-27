@@ -30,7 +30,7 @@ const Information = () => {
 
         <div className="cowin-button">
             <h3>Register youself on Cowin</h3>
-            <button>Register</button>
+            <a href="https://www.cowin.gov.in/" target="_blank"  rel="noreferrer"><button>Register</button></a>
         </div>
 
         </div>

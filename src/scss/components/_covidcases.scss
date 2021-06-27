@@ -1,23 +1,6 @@
 .covid-cases {
-    padding: 5% 10%;
+    padding: 7% 0;
+    display: flex;
     flex-wrap: wrap;
-    > * {
-        margin-bottom: 5rem;
-      }
-      > *:last-child {
-        margin-bottom: 0;
-      }
-      justify-content: space-between;
-      align-items: center;
-      align-content: center;
-
-    > * {
-      margin-right: 4rem;
-    }
-  
-    .card-container {
-        flex-basis: 1;
-        flex-grow: 1;
-        flex-shrink: 20%;
-    }
-  }
+    justify-content: center;
+}
