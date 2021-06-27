@@ -17,7 +17,7 @@ const Landing = () => {
             <div className="container">
                 <div className="container-left">
                    <h1>Save A Life</h1>
-                   <p>Connect to help others</p>
+                   <p>Connect to <span>help</span> others</p>
                    <div className="button-container">
                        <button className="add-button" onClick={handleopenForm}>Add Resources</button>
                        <button className="view-button" onClick={openDialog}>View Resources</button>
