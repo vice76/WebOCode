@@ -29,7 +29,7 @@ const ResourceForm = ({open ,handleClose }) => {
 
   return (
     <div>
-      <Button variant="outlined" color="primary" onClick={handleClickOpen}>
+      <Button variant="outlined" color="primary" onClick={handleChange}>
         Open responsive dialog
       </Button>
       <Dialog

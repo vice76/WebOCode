@@ -1,22 +1,57 @@
-.about-left{
-    .question{
-        position:absolute;
-        top: 11rem;
-        left: 15rem;
-    }
-}
-.about-right{
-    left: 18rem;
-}    
-.aboutsanjeevni
-    {
-        padding: 2rem 12rem 2rem 6rem ;
-        position:absolute;
-        text-align: left;
-        left: 46rem;
-        top: 3rem;
-        line-height: 30px;
-        font-weight: bold;
-        letter-spacing: 0.08em;
-    }
+.about-div {
 
+    .container-one {
+        display: flex;
+        padding: 5% 13%;
+        justify-content: space-between;
+
+        @media (max-width: 800px) {
+            flex-direction: column-reverse;
+        }
+
+        h3 {
+            font-size: 2rem;
+            font-family: 'Rubik', sans-serif;
+            color: $color-blue;
+            @media (max-width: 900px) {
+                font-size: 1.5rem;
+            }
+        }
+
+        img {
+            height: 200px;
+        }
+
+        @media (max-width:800px) {
+            .about-logo {
+                display: none;
+            }
+        }
+
+        .about-left {
+            flex: 1;
+            text-align: center;
+    
+        }
+
+        .aboutsanjeevni {
+            flex: 1;
+            @media (max-width:800px) {
+                text-align: center;
+            }
+        }
+
+        .aboutsanjeevni2 {
+            flex: 1;
+            @media (max-width:800px) {
+                text-align: center;
+            }
+        }
+
+        .about-right {
+            flex: 1;
+            text-align: center;
+        }
+    }
+    
+}
