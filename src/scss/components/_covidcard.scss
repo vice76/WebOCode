@@ -1,41 +1,47 @@
-.covidcard{
-    width: 100%;
+.covid-case-card {
+    width: 35%;
     padding: 5%;
-    border-radius: 10px;
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.04), 0 0 2px rgba(0, 0, 0, 0.06), 0 0 1px rgba(0, 0, 0, 0.04);
-    margin-bottom: 5%;
+    box-sizing: content-box;
+    border-radius: 8px;
+    margin-bottom: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04), 0 0 2px rgba(0, 0, 0, 0.06), 0 0 1px rgba(0, 0, 0, 0.04);
     > * {
-        margin-bottom: 1.8rem;
+        margin-bottom: 1.5rem;
       }
       > *:last-child {
-        margin-bottom: 0;
+        margin-bottom: 0rem;
       }
-      .covid-row{
-          display: flex;
+      .card-row {
+        display: flex;
         > * {
             margin-right: 5rem;
           }
           > *:last-child {
-            margin-right: 0;
+            margin-right: 0rem;
           }
+          justify-content: space-between;
+          align-items: center;
+          align-content: center;
         }
-          &__content-left{
+          &__content-left {
             > * {
                 margin-bottom: .5rem;
               }
               > *:last-child {
-                margin-bottom: 0;
+                margin-bottom: 0rem;
               }
+              justify-content: center;
               align-items: flex-start;
-                align-content: flex-start;
+              align-content: flex-start;
           }
-          &__content-right{
+          &__content-right {
             > * {
                 margin-bottom: .5rem;
               }
               > *:last-child {
-                margin-bottom: 0;
+                margin-bottom: 0rem;
               }
+              justify-content: center;
                 align-items: flex-end;
                 align-content: flex-end;
           }
