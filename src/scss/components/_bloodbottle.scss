@@ -57,6 +57,12 @@
 
   .donate-button {
     text-align: center;
+
+    button {
+      background-color: $color-green;
+      color: white;
+      border: 1px solid $color-green;
+    }
   }
 
   .plasma-heading {

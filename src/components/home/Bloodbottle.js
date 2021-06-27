@@ -10,16 +10,16 @@ const Bloodbottle = () => {
     return (
         <div className="bloodbottle">
             <div className="bloodbottle-container">
-             <img className="bloodbottle-left" src={Bottle} slt="background -img1"/>
-             <img className="bloodbottle-center" src={Blood} slt="main-img"/>
-             <img className="bloodbottle-right" src={Drop} slt="background -img2"/> 
+             <img className="bloodbottle-left" src={Bottle} alt="background -img1"/>
+             <img className="bloodbottle-center" src={Blood} alt="main-img"/>
+             <img className="bloodbottle-right" src={Drop} alt="background -img2"/> 
             </div>
              <div className="donate-button">
              <Button variant="outlined" >Donate Plasma</Button>
              </div>
              <div className="plasma-heading">
                 <h1>BECOME A VOLUNTEER</h1> 
-                <img className="icon" src={Donateicon} slt="background -img2"/> 
+                <img className="icon" src={Donateicon} alt="background -img2"/> 
                 
              </div>
         </div>
